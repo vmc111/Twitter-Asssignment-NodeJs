@@ -34,11 +34,11 @@ GET http://localhost:3000/tweets/2/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjgxMjI2ODI0fQ.CZ7ntbyzwqwgxpDgWI3N0r77P2q8l3TJLov75EYZ4Go
 
 ###
-GET http://localhost:3000/tweets/2/likes/
+GET http://localhost:3000/tweets/7/likes/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjgxMjI2ODI0fQ.CZ7ntbyzwqwgxpDgWI3N0r77P2q8l3TJLov75EYZ4Go
 
 ###
-GET http://localhost:3000/tweets/2/replies/
+GET http://localhost:3000/tweets/8/replies/
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjgxMjI2ODI0fQ.CZ7ntbyzwqwgxpDgWI3N0r77P2q8l3TJLov75EYZ4Go
 
 ### 

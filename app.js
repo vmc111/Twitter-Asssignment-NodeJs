@@ -233,10 +233,12 @@ app.get(
     const getLikedMembers = `SELECT user.username FROM user INNER JOIN like ON user.user_id = like.user_id
     WHERE  like.tweet_id = ${tweetId};`;
     const likedMembers = await db.all(getLikedMembers);
-
     const responseObj = {
-      likes: likedMembers,
+      likes: [],
     };
+    for (let eachUser of likedMembers) {
+      responseObj.likes.push(eachUser.username);
+    }
     response.send(responseObj);
   }
 );
